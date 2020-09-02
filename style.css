@@ -391,6 +391,92 @@ nav {
 .contact {
     position: relative;
     top: 80px;
+    width: 100vw;
+    padding: 30px 0;
+}
+
+.contact1-section {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+.adress-container {
+    width: 40%;
+    padding: 15px;
+    background-color: snow;
+}
+
+.adress-container h2 {
+    color: darkred;
+    font-size: 30px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    padding-bottom: 15px;
+}
+
+.adress-container p {
+    color: gray;
+    font-size: 16px;
+    font-weight: 300;
+    padding: 3px 0;
+}
+
+.hours-container {
+    width: 40%;
+    padding: 15px;
+    background-color: snow;
+}
+
+.hours-container h2 {
+    color: darkred;
+    font-size: 30px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    padding-bottom: 15px;
+}
+
+.hours-container p {
+    color: gray;
+    font-size: 16px;
+    font-weight: 300;
+    padding: 3px 0;
+}
+
+.deposit-container {
+    width: 100%;
+    padding: 20px;
+    background-color: snow;
+    color: darkgrey;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.deposit-container h2 {
+    color: darkred;
+    font-size: 30px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+}
+
+.payments-title {
+    margin-bottom: 10px;
+}
+
+.payments-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.currency-info {
+    text-align: center;
+}
+
+.account-nr {
+    margin-bottom: 15px;
 }
 
 footer {
