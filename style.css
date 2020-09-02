@@ -179,11 +179,22 @@ nav {
 }
 
 .header-text-container {
-    position: absolute;
-    top: 150px;
-    width: 600px;
+    position: relative;
+    top: 30%;
+    width: 100%;
     color: white;
     text-align: center;
+}
+
+.header-text-container h1 {
+    font-size: 50px;
+    letter-spacing: 2px;
+}
+
+.header-text-container h3 {
+    font-size: 30px;
+    letter-spacing: 2px;
+    margin-top: 20px;
 }
 
 /* Between section */
@@ -206,5 +217,31 @@ nav {
 .between-info {
     width: 50%;
     height: 100%;
+    color: black;
     background-image: url('./assetes/windows.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+.between-text {
+    width: 70%;
+    margin: 50px auto 30px;
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+.between-info a {
+    display: inline-block;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    text-decoration: none;
+    padding: 15px 40px;
+    color: white;
+    background-color: darkred;
+}
+
+.about { 
+    position: relative;
+    top: 80px;
 }
